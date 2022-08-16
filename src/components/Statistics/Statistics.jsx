@@ -8,8 +8,8 @@ export default  function Statistics ({
   bad,
   total,
   positivePercentage,
-}) {
-  (
+}) { 
+return  (
     <>
       <StatisticsList>
         <StatisticsListItem>Good: {good}</StatisticsListItem>
